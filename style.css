@@ -1,20 +1,95 @@
 body {
-    background-color: #ECF9FF;
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  font-size: 150%;
 }
 
-
 h1 {
-  color: #66BFBf;
+  color: #66BFBF;
+  line-height: 2;
+  font-size: 5.625rem;
+  margin-top: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+}
+
+h2 {
+  color: #66BFBF;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  font-weight: normal;
 }
 
 h3 {
-  color: #66BFBf;
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
 }
 
-hr {
-  border-style: none;
-  border-top-style: dotted;
-  border-color: grey;
-  border-width: 5px;
-  width: 5%;
+
+
+.top-container {
+  background-color: #E4F9F5;
+  position: relative;
+  padding-top: 100px;
 }
+
+
+.middle-container {
+}
+
+.bottom-container {
+}
+
+.footer-link {
+  color: #11999E;
+}
+
+.pro {
+  text-decoration: underline;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+.programmer {
+  color: #66BFBF;
+  font-weight: normal;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.python-img {
+  width: 30%;
+  float: left;
+  margin-right: 30px;
+}
+
+.chilli-img {
+  width: 30%;
+  float: right;
+  margin-left: 30px
+}
+
+
+.my-self-description {
+  text-align: center;
+  /* width: 30%; */
+}
+
+/* .code-skill-description {
+  clear: left;
+} */
